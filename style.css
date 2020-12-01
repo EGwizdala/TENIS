@@ -1,0 +1,143 @@
+* {box-sizing: border-box;}
+
+body {
+    margin:0;  
+    padding: 0;
+   
+    background-color:#000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+}
+
+
+.wrapper {
+    max-width: 1800px;
+    min-width: 1000psx;
+    margin: 0 auto;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    background-color: black;
+    
+    
+}
+.wrapper > * {
+    background-color:black;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    height: 100px;
+    grid-area: header;
+    font-size: 2em;
+    color: magenta;
+}
+
+.level {
+    grid-area: level;
+    height: 60px;
+   }
+.levelName {
+    grid-area: start;
+    height: 60px;
+}
+
+.playerScore {
+    grid-area: playerScore;
+    height: 60px;
+}
+
+.computerScore {
+    grid-area: computerScore;
+    height: 60px;
+}
+
+.numbers {
+    padding-left: 15px;
+}
+
+.levelNumbers {
+    padding-left: 15px;
+}
+.start {
+    grid-area: score;
+    height: 80px;
+}
+
+.start button{
+    height: 80%;
+    width: 50%;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    background-color: #fff;
+    outline: none;
+}
+
+.start button:hover {
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #fff;
+    
+}
+.table {
+    grid-area: table; 
+    border: 2px solid #fff;   
+  
+}
+
+.footer {
+    grid-area: footer;
+    height: 100px;
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 100px 80px 80px 80px 1fr 50px ; */
+    grid-template-areas: 
+    "header header"
+    "level start"
+    "playerScore computerScore"
+    "score score"
+    "table table"
+    "footer footer"; 
+}
+
+@media (min-width: 1430px) {
+    .wrapper {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "header header header"
+        "level score start"
+        "playerScore table computerScore"
+        "footer footer footer"; 
+    }
+    .playerScore {
+        grid-area: playerScore;
+        height: 100%;
+        font-size: 30px;
+        display: block;
+        margin: 1em 0 1em 0;
+    }
+    
+    .computerScore {
+        grid-area: computerScore;
+        height: 100%;
+        font-size: 30px;
+        display: block;
+        margin: 1em 0 1em 0;
+    }
+
+    .numbers {
+        font-size: 40px;
+        color: red;
+        display: block;
+        margin: 1em 0 1em 0;
+    }
