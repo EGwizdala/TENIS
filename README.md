@@ -1,5 +1,5 @@
 # TENIS
-Simple oldschool tennis game (pong) for two players: you and computer. 
+Simple old school tennis game (pong) for two players: you and computer. 
 
 ## Table of contents
 * [General info](#general-info)
@@ -12,7 +12,7 @@ Simple oldschool tennis game (pong) for two players: you and computer.
 * [Contact](#contact)
 
 ## General info
-A game made with tuorial made by Samuraj Programowania. Graphics are made in Canvas API. Game has AI elements, paddle is controled by mouse move. Interface, point counter and game score are my developement of rhe tutorial. 
+A game made with tutorial made by Samuraj Programowania. Graphics are made in Canvas API. The Game has AI elements, the paddle is controlled by mouse move. Interface, point counter and game score are my development of the tutorial.
 
 ## Screenshots
 ![Example screenshot](./tenis.png)
@@ -36,7 +36,7 @@ Link to demo version:  https://egwizdala.github.io/TENIS/
 Project is:_finished_
 
 ## Inspiration
-Project based on Samuraj PRogramowania tutorial: https://www.youtube.com/watch?v=8IJ_1QcqMdM&list=PLTs20Q-BTEMMSpaBeLpGECE3748o2MOFD&index=1&ab_channel=SamurajProgramowania
+Project based on Samuraj Programowania tutorial: https://www.youtube.com/watch?v=8IJ_1QcqMdM&list=PLTs20Q-BTEMMSpaBeLpGECE3748o2MOFD&index=1&ab_channel=SamurajProgramowania
 
 ## Contact
 Created by Emilia Gwizdala [emilia.gwizdala@gmail.com](https://www.flynerd.pl/) - feel free to contact me!
