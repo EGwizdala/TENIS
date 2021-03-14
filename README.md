@@ -1,5 +1,5 @@
 # TENIS
-Simple oldschool game in tenis. 
+Simple oldschool tennis game (pong) for two players: you and computer. 
 
 ## Table of contents
 * [General info](#general-info)
@@ -12,38 +12,32 @@ Simple oldschool game in tenis.
 * [Contact](#contact)
 
 ## General info
-A game made with tuorial 
+A game made with tuorial made by Samuraj Programowania. Graphics are made in Canvas API. Game has AI elements, paddle is controled by mouse move. Interface, point counter and game score are my developement of rhe tutorial. 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](./tenis.png)
 
 ## Technologies
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
+* HTML5
+* CSS6
+* JAVASCRIPT/CANVAS
+* Written in Visual Studio Code
 
 ## Setup
-Describe how to install / setup your local environement / add link to demo version.
-
-## Code Examples
-Show examples of usage:
-`put-your-code-here`
+Link to demo version:  https://egwizdala.github.io/TENIS/
 
 ## Features
-List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
-
-To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+* collision detection
+* AI
+* Mouse control
+* Points counter
 
 ## Status
-Project is: _in progress_, _finished_, _no longer continue_ and why?
+Project is:_finished_
 
 ## Inspiration
-Add here credits. Project inspired by..., based on...
+Project based on Samuraj PRogramowania tutorial: https://www.youtube.com/watch?v=8IJ_1QcqMdM&list=PLTs20Q-BTEMMSpaBeLpGECE3748o2MOFD&index=1&ab_channel=SamurajProgramowania
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Created by Emilia Gwizdala [emilia.gwizdala@gmail.com](https://www.flynerd.pl/) - feel free to contact me!
+
