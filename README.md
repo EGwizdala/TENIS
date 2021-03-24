@@ -19,7 +19,7 @@ A game made with tutorial made by Samuraj Programowania. Graphics are made in Ca
 
 ## Technologies
 * HTML5
-* CSS6
+* CSS3
 * JAVASCRIPT/CANVAS
 * Written in Visual Studio Code
 
